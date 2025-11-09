@@ -1,0 +1,18 @@
+
+:root{--bg:#05060a;--card:#071226;--accent:#0077FF;--gold:#FFD700;--muted:#9fb3d0;color:#e6f0ff;font-family:Inter,Arial,Helvetica,sans-serif}
+body{margin:0;background:linear-gradient(180deg,#02030a 0%,#071022 100%);color:var(--muted)}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 40px;background:linear-gradient(90deg,rgba(255,255,255,0.02),transparent)}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:56px;height:56px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.6)}
+.nav nav a{color:var(--muted);margin-left:18px;text-decoration:none;font-weight:600}
+.hero{display:flex;gap:30px;padding:60px 40px;align-items:center}
+.hero-content{flex:1}
+.hero h2{font-size:36px;color:var(--accent);margin:0 0 10px}
+.hero p{color:#b9d7ff;margin:0 0 20px}
+.btn{background:linear-gradient(90deg,var(--accent),#66b2ff);padding:10px 16px;border-radius:12px;color:#021024;text-decoration:none;font-weight:700;box-shadow:0 8px 30px rgba(0,119,255,0.12)}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+.hero-card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:18px;border-radius:14px;width:320px;box-shadow:0 12px 40px rgba(0,0,0,0.6)}
+.section{padding:36px 40px}
+.darkcard{background:linear-gradient(180deg,rgba(255,215,0,0.02),rgba(255,215,0,0.01));border-radius:12px;padding:20px;margin:12px 40px}
+.footer{padding:24px;text-align:center;color:#8fb5ff;background:linear-gradient(180deg,transparent,rgba(0,0,0,0.2))}
+.social a{color:var(--accent);margin-right:12px;text-decoration:none}
